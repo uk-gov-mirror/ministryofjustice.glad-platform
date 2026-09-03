@@ -1,5 +1,62 @@
 # Changelog
 
+## [3.0.0](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/compare/glad-bom-v2.1.3...glad-bom-v3.0.0) (2026-09-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* **LPF-1127:** upgrade openapi version to allow SILAS work ([#43](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/43))
+* **LPF-1514:** Split platform into BOM and parent modules ([#6](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/6))
+
+### Features
+
+* **LPF-1127:** upgrade openapi version to allow SILAS work ([#43](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/43)) ([f9be822](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/f9be8228b39878ae4912a25dfd3df937edb4c64b))
+* **LPF-1514:** add more common dependencies ([#20](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/20)) ([c824157](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/c8241576b5a5f642282bd8cff3bb9f71c1a67bb9))
+* **LPF-1559:** remove openapi dependency ([#71](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/71)) ([6affa86](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/6affa86f3aad32830e02764f63020878d8119b74))
+
+
+### Bug Fixes
+
+* **bot:** bump com.azure.spring:spring-cloud-azure-dependencies ([e9c3deb](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/e9c3deb46a900b2cd77a2e64fd0936f2dc1c3d55))
+* **bot:** bump com.azure.spring:spring-cloud-azure-dependencies from 7.3.0 to 7.4.0 ([#64](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/64)) ([19750d3](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/19750d30e4dc95f8139581c67aa17accbe97f274))
+* **bot:** bump com.deque.html.axe-core:playwright from 4.12.0 to 4.13.0 ([d18c91a](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/d18c91aa69e3beb194db2af84a3bc01e67a76d6f))
+* **bot:** bump com.deque.html.axe-core:playwright from 4.12.0 to 4.13.0 ([#80](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/80)) ([1416420](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/14164205bf00215166e6fcc2f3001ebfcda263d0))
+* **bot:** bump com.microsoft.playwright:playwright from 1.61.0 to 1.62.0 ([86b7ee7](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/86b7ee7be370407f3cd610514ffdd5e63ac561b1))
+* **bot:** bump com.microsoft.playwright:playwright from 1.61.0 to 1.62.0 ([#76](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/76)) ([712bdd0](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/712bdd0ecca60a12c60a5c1b2e4b0be7c868ca1e))
+* **bot:** bump io.cucumber:cucumber-bom from 7.34.4 to 7.34.6 ([7af720a](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/7af720a1496871e9f3881924ecc143bb30755a62))
+* **bot:** bump io.cucumber:cucumber-bom from 7.34.4 to 7.34.6 ([#54](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/54)) ([38f8378](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/38f8378ab1286f194003bbb682ed6686aee8d7bd))
+* **bot:** bump io.cucumber:cucumber-bom from 7.34.6 to 7.34.7 ([54aa709](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/54aa70949d3294518940999819439c2e49543371))
+* **bot:** bump io.cucumber:cucumber-bom from 7.34.6 to 7.34.7 ([#82](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/82)) ([4f8e08c](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/4f8e08c0b1cc5557f704046becc02d7c9dd2180a))
+* **bot:** bump io.swagger.core.v3:swagger-annotations ([e63965d](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/e63965d90a67d21653e88749372d573b79c28a2c))
+* **bot:** bump io.swagger.core.v3:swagger-annotations ([cf48299](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/cf48299140b7b3266b296604b935edad9e8a1f75))
+* **bot:** bump io.swagger.core.v3:swagger-annotations from 2.2.52 to 2.2.53 ([#66](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/66)) ([c404ff1](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/c404ff132370a6ebcbc46552911b83666c4f2620))
+* **bot:** bump io.swagger.core.v3:swagger-annotations from 2.2.53 to 2.2.54 ([#89](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/89)) ([86fcc2c](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/86fcc2cdb07ac7b86f7b90b764b3677580fb0a01))
+* **bot:** bump org.springdoc:springdoc-openapi-starter-webmvc-ui ([1b807bd](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/1b807bde6160a0d0e67cb52e1d8a2a0aed6a7177))
+* **bot:** bump org.springdoc:springdoc-openapi-starter-webmvc-ui from 3.0.3 to 3.1.0 ([#67](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/67)) ([4043b09](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/4043b09d3c54a467898c184deb07c0ad1166b16a))
+* **bot:** bump software.amazon.awssdk:bom from 2.48.3 to 2.49.3 ([86c1218](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/86c121844331a7da33f6e509ff568f1052d9e66b))
+* **bot:** bump software.amazon.awssdk:bom from 2.48.3 to 2.49.3 ([#53](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/53)) ([f1981e2](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/f1981e240d5f91dab433dc14f393d4b7034ece9e))
+* **bot:** bump software.amazon.awssdk:bom from 2.49.6 to 2.50.2 ([e3236a5](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/e3236a5db14c9f15a58d3c310fd0f1294094f2df))
+* **bot:** bump software.amazon.awssdk:bom from 2.49.6 to 2.50.2 ([#68](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/68)) ([3a71a9d](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/3a71a9d71b7e4106889ab0e84d723e34be8554a2))
+* **bot:** bump software.amazon.awssdk:bom from 2.50.2 to 2.51.3 ([d7ecf1d](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/d7ecf1d2811b88c03117058586f722563a1d03af))
+* **bot:** bump software.amazon.awssdk:bom from 2.50.2 to 2.51.3 ([#75](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/75)) ([7a03572](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/7a03572265672fbd02848f480c9219eeec4e6b83))
+* **bot:** bump software.amazon.awssdk:bom from 2.51.3 to 2.53.1 ([06f7b3b](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/06f7b3b56428ad975c4824839d0568b5aafb42b5))
+* **bot:** bump software.amazon.awssdk:bom from 2.51.3 to 2.53.1 ([#79](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/79)) ([b156381](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/b15638122f0b10769f6b39adc2bf78180e6bdfdb))
+* **bot:** bump software.amazon.awssdk:bom from 2.53.1 to 2.54.2 ([8122f6e](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/8122f6e026c99d67ca5f97da196ce62789f7e5f3))
+* **bot:** bump software.amazon.awssdk:bom from 2.53.1 to 2.54.2 ([#88](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/88)) ([e4e7881](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/e4e78812563c12c33e0e325a49a383e2a82ded24))
+* **LPF-0000:** fix import issues and bump openapi version ([#31](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/31)) ([dd6d47a](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/dd6d47a9a58e1b21c2fe1747b3f2f30d64941bc4))
+* **LPF-000:** bump software.amazon.awssdk:bom from 2.47.5 to 2.48.3 ([#47](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/47)) ([388691a](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/388691afe553a27451a95444b054ffecd494d4ad))
+* **LPF-000:** Update AWS version to resolve Snyk issue ([#60](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/60)) ([444ecb3](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/444ecb3ddb6badface2ff3c508faba9148ac6871))
+* **LPF-000:** Upgrade Openapi version ([#40](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/40)) ([9ebebf8](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/9ebebf8884ecc13de6d024fa80818b17b6bd95c5))
+* **LPF-000:** Upgrade Openapi version ([#59](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/59)) ([1e2899b](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/1e2899be46274c8a674be85148dc683d51a2d4e5))
+* **LPF-1514:** Added swagger, gatling, and immutables runtime dependencies ([5740536](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/57405360e18d6e3443c64fa2f1e9d37978125a8a))
+* **LPF-1514:** trigger parent release ([2a0f227](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/2a0f227d93bc52e97546131b73d8b88e6ce9fbdf))
+* **LPF-1514:** Update bom version in glad-parent ([#24](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/24)) ([7633e82](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/7633e82e3316db57c6bbe2309991288d07c6d62e))
+
+
+### Code Refactoring
+
+* **LPF-1514:** Split platform into BOM and parent modules ([#6](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/issues/6)) ([6b1c70d](https://github.com/uk-gov-mirror/ministryofjustice.glad-platform/commit/6b1c70d912d0ab7b214ec842fce6139b03a6a78a))
+
 ## [2.1.3](https://github.com/ministryofjustice/glad-platform/compare/glad-bom-v2.1.2...glad-bom-v2.1.3) (2026-09-03)
 
 
